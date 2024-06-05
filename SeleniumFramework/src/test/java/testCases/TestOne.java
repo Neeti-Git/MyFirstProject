@@ -24,7 +24,7 @@ public class TestOne {
 		WebElement element= driver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[1]/a"));
 		
 		//act.scrollToElement(element);
-		act.scrollByAmount(0,1381)b;
+		act.scrollByAmount(0,1381);
 		
 		System.out.println(element.getRect().y);
 		
